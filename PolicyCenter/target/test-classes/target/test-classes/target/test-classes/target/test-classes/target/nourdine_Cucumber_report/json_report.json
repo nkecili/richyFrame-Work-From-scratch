@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-12T20:02:48.607Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4712340000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "helpers.SetUp.setUpInit()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "get-a-pet-insurance-quote;",
+        "after": [
+          {
+            "result": {
+              "duration": 117392000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "helpers.SetUp.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is landed on home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 143000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user should see the home page logo",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Get a Pet Insurance Quote",
+    "description": "",
+    "id": "get-a-pet-insurance-quote",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/homePage.feature",
+    "tags": []
+  }
+]

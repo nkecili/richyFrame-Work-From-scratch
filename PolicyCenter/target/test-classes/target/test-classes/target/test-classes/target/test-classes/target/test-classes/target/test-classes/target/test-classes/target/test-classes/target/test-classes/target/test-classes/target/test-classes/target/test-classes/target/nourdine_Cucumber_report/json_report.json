@@ -1,0 +1,53 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-12T18:41:25.643Z",
+        "line": 3,
+        "name": "check travelers logo on pet medical page",
+        "description": "",
+        "id": "get-a-pet-insurance-quote;check-travelers-logo-on-pet-medical-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on Travelers  home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 277000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user should see their title displayed \"Business and Personal Insurance Solutions | Travelers Insurance\"",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 267000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user should see the logo",
+            "match": {},
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Get a Pet Insurance Quote",
+    "description": "",
+    "id": "get-a-pet-insurance-quote",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/homePage.feature",
+    "tags": []
+  }
+]
